@@ -4,41 +4,13 @@
    <script src="js/popcorn-complete.js"></script>
    <script src="js/jquery.min.js" type="text/javascript"></script>
    <link rel="stylesheet" type="text/css" href="css/style.css">
-   <script>
-     document.addEventListener( "DOMContentLoaded", function() {
-        var popcorn = Popcorn( "#storyteller" );
-
-        $.getJSON( "./data.json", function( data ) {
-            console.log(data);
-// alert("Yes");
-            $.each(data, function(index, currentFrame) {
-            	
-                popcorn.code({
-    				start   : currentFrame.start,
-    				end     : currentFrame.end,
-    				onStart: function( options ) {
-                        // alert("starting : " + currentFrame.image);
-    					//Change background image
-    					$('body').css('background-image', 'url(img/' + currentFrame.image + ')');
-    					//Change the Tag
-    					document.getElementById( "tag" ).innerHTML = currentFrame.tag;
-    				},
-    				onEnd: function( options ) {
-                        // alert("ending");
-    					// document.getElementById( "tag" ).innerHTML = "No";
-    				}
-    			}); //end of popcorn.code
-            }); //end of $.each
-        }); // end of getJSON
-
-     }, false );
-   </script>
+   <script src="js/storyteller-engine.js" type="text/javascript"></script>
  </head>
  <body>
-	<audio controls height="180" width="300" id="storyteller">
+	<audio controls id="storyteller">
 		<source src="audio/cubaclasica.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
 	</audio>
-    <div id="tag">HELLO</div>
+    <div class="tag">HELLO</div>
  </body>
 </html>
