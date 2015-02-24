@@ -3,7 +3,7 @@
 */
 body {
   /* Location of the image */
-  background-image: url(../img/cars.jpg);
+  background-image: url('');
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -39,14 +39,14 @@ body {
   padding: 5px;
 }
 .tag-box {
-  height: 50px;
+/*  height: 50px;
   line-height: 50px;
   margin: 50px;
   background-color: #000000;
   border: none;
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
-
+*/
 }
 
   

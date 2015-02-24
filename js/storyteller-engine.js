@@ -8,7 +8,6 @@ document.addEventListener( "DOMContentLoaded", function() {
         popcorn.pause();
     });
 
-    
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
         	
@@ -17,30 +16,32 @@ document.addEventListener( "DOMContentLoaded", function() {
 				end     : currentFrame.end,
 				onStart: function( options ) {
                     
+                    transitions.currentFrame = currentFrame;
                     
 					//Change background image
 					if (currentFrame.image) 
-                        $('body').css('background-image', 'url(img/' + currentFrame.image + ')');
+                        transitions.image();
 					//Change the Tag
 					if (currentFrame.tag) {
-                        $( ".tag" ).html(currentFrame.tag);
-                        $(".tag-box").fadeIn();
+                        transitions.tag();
                     }
                     //Change the description
                     if (currentFrame.description) {
-                        $( ".description" ).html(currentFrame.description);
-                        $(".description").fadeIn();
+                        transitions.description();
                     }
                     //Change the link
                     if (currentFrame.link) {
                         var linkElements = (currentFrame.link).split("|");
+                        var title = null;
+                        var link  = null;
                         if (linkElements.length > 1) {
-                            $( ".button" ).attr('href', linkElements[1]);
-                            $( ".button" ).html(linkElements[0]);
+                            title = linkElements[1];
+                            link  = linkElements[0];
                         } else {
-                            $( ".button" ).attr('href', linkElements[0]);
-                            $( ".button" ).html(linkElements[0]);
+                            title = linkElements[0];
+                            link  = linkElements[0];
                         }
+                        transitions.link(title, link);
                         $(".button").fadeIn();
                         $('.button').click(function() {
                             popcorn.pause();
