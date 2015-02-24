@@ -1,7 +1,8 @@
 document.addEventListener( "DOMContentLoaded", function() {
     var popcorn = Popcorn( "#storyteller" );
 
-    $.getJSON( "./data.json", function( data ) {
+
+    // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
         	
             popcorn.code({
@@ -10,8 +11,6 @@ document.addEventListener( "DOMContentLoaded", function() {
 				onStart: function( options ) {
                     
                     
-                    
-
 					//Change background image
 					if (currentFrame.image) 
                         $('body').css('background-image', 'url(img/' + currentFrame.image + ')');
@@ -46,6 +45,6 @@ document.addEventListener( "DOMContentLoaded", function() {
 				}
 			}); //end of popcorn.code
         }); //end of $.each
-    }); // end of getJSON
-
+    // }); // end of getJSON
+    popcorn.play();
  }, false );
