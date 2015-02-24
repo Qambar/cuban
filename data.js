@@ -116,7 +116,7 @@ var data = [
 	},
 	{
 		"start" : 159,
-		"end"	: 160,
+		"end"	: 162,
 		"image"	: null,
 		"tag"	: "1993",
 		"description"	: null,
@@ -125,7 +125,7 @@ var data = [
 	{
 		"start" : 161,
 		"end"	: 162,
-		"image"	: null,
+		"image"	: "p02jy288.jpg",
 		"tag"	: "Founded the orchestra",
 		"description"	: null,
 		"link"			: null
@@ -133,7 +133,7 @@ var data = [
 	{
 		"start" : 165,
 		"end"	: 168,
-		"image"	: null,
+		"image"	: "p02jy243.jpg",
 		"tag"	: "female young musicians in Cuba",
 		"description"	: null,
 		"link"			: null
@@ -149,7 +149,7 @@ var data = [
 	{
 		"start" : 187,
 		"end"	: 188,
-		"image"	: null,
+		"image"	: "ruben-gonzlez.jpg",
 		"tag"	: "Our own cuban music",
 		"description"	: null,
 		"link"			: null
@@ -157,7 +157,7 @@ var data = [
 	{
 		"start" : 189,
 		"end"	: 190,
-		"image"	: null,
+		"image"	: "cuban-musician.jpg",
 		"tag"	: "Latin America",
 		"description"	: null,
 		"link"			: null
@@ -173,7 +173,7 @@ var data = [
 	{
 		"start" : 197,
 		"end"	: 200,
-		"image"	: null,
+		"image"	: "instituoSuperiorDeArtes.jpg",
 		"tag"	: "Education",
 		"description"	: null,
 		"link"			: null
