@@ -8,12 +8,13 @@ document.addEventListener( "DOMContentLoaded", function() {
         popcorn.pause();
     });
 
+    var gapTime = 32;
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
         	
             popcorn.code({
-				start   : currentFrame.start,
-				end     : currentFrame.end,
+				start   : currentFrame.start + gapTime,
+				end     : currentFrame.end + gapTime,
 				onStart: function( options ) {
                     
                     transitions.currentFrame = currentFrame;
