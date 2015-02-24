@@ -2,6 +2,10 @@
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
 
+body, h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 .inner {
   padding: 5px;
 }
@@ -35,16 +39,16 @@ html, body, h1, p, a, div, section {
 
 /* Basic */
 body { 
-  font: 18px/23px "Cantarell", sans-serif;
+  font: 18px/23px "Playfair Display", sans-serif;
   color: #ffffff;
 }
 
 h1 {
   color: #efecec;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 70px;
   line-height: 50px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 20px;
 }
 
@@ -67,7 +71,7 @@ blockquote {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.3);  
   color: #e1e1e1;
-  font-family: "Kotta One", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 22px;
   line-height: 28px;
 }
@@ -107,10 +111,10 @@ img.bg {
 
 .navbar {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   height: 40px;
   z-index: 9999;
   position: fixed;
+  bottom: 0;
 }
 
   .inner {
