@@ -20,14 +20,14 @@ document.addEventListener( "DOMContentLoaded", function() {
                     
 					//Change background image
 					if (currentFrame.image) 
-                        transitions.image();
+                        transitions.startImage();
 					//Change the Tag
 					if (currentFrame.tag) {
-                        transitions.tag();
+                        transitions.startTag();
                     }
                     //Change the description
                     if (currentFrame.description) {
-                        transitions.description();
+                        transitions.startDescription();
                     }
                     //Change the link
                     if (currentFrame.link) {
@@ -41,7 +41,7 @@ document.addEventListener( "DOMContentLoaded", function() {
                             title = linkElements[0];
                             link  = linkElements[0];
                         }
-                        transitions.link(title, link);
+                        transitions.startLink(title, link);
                         $(".button").fadeIn();
                         $('.button').click(function() {
                             popcorn.pause();
@@ -49,10 +49,10 @@ document.addEventListener( "DOMContentLoaded", function() {
                     }
 				},
 				onEnd: function( options ) {
-                    $('body').css('background-image', 'url("")');
-                    $(".tag-box").fadeOut();
-                    $(".description").fadeOut();
-                    $(".button").fadeOut();
+                    transitions.endTag();
+                    transitions.endLink();
+                    transitions.endDescription();
+                    transitions.endImage();
 				}
 			}); //end of popcorn.code
         }); //end of $.each
