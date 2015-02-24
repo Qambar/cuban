@@ -68,7 +68,7 @@ var data = [
 	{
 		"start" : 93,
 		"end"	: 96,
-		"image"	: null,
+		"image"	: "terminal.jpg",
 		"tag"	: "Ferry Terminal",
 		"description"	: null,
 		"link"			: null
@@ -76,7 +76,7 @@ var data = [
 	{
 		"start" : 104,
 		"end"	: 107,
-		"image"	: null,
+		"image"	: "stFrancisAssisi.jpg",
 		"tag"	: "16th Century Mission",
 		"description"	: null,
 		"link"			: null
@@ -84,7 +84,7 @@ var data = [
 	{
 		"start" : 114,
 		"end"	: 117,
-		"image"	: null,
+		"image"	: "sanFelipeNeriConcertHall.jpg",
 		"tag"	: "Restored as a concert venue",
 		"description"	: null,
 		"link"			: null
@@ -101,7 +101,7 @@ var data = [
 	{
 		"start" : 150,
 		"end"	: 153,
-		"image"	: null,
+		"image"	: "zanaidu.jpg",
 		"tag"	: "Zanidu Romeu",
 		"description"	: null,
 		"link"			: null
@@ -109,7 +109,7 @@ var data = [
 	{
 		"start" : 155,
 		"end"	: 158,
-		"image"	: null,
+		"image"	: "piazzolla.jpg",
 		"tag"	: "Piazolla",
 		"description"	: null,
 		"link"			: "http://en.wikipedia.org/wiki/Astor_Piazzolla"
