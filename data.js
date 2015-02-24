@@ -2,7 +2,7 @@ var data = [
 //INTRO
 	{
 		"start" 		: 39,
-		"end"			: 41,
+		"end"			: 45,
 		"image"			: "havanna-vieja2.jpg",
 		"tag"			: "Old Havana",
 		"description"	: null,
@@ -11,14 +11,14 @@ var data = [
 	},
 	{
 		"start" : 46,
-		"end"	: 49,
+		"end"	: 53,
 		"image"	: "plazaVieja.jpg",
 		"tag"	: "Ornate restorations",
 		"link"  : "http://www.bbc.co.uk"
 	},
 	{
 		"start" : 54,
-		"end"	: 57,
+		"end"	: 61,
 		"image"	: "havana-night2.jpg",
 		"tag"	: "Friday Night",
 		"description"	: null,
@@ -26,7 +26,7 @@ var data = [
 	},
 	{
 		"start" : 62,
-		"end"	: 65,
+		"end"	: 68,
 		"image"	: "cafeMusicians.jpg",
 		"tag"	: "Live Cuban Music",
 		"description"	: null,
@@ -50,7 +50,7 @@ var data = [
 	}, 
 	{
 		"start" : 77,
-		"end"	: 80,
+		"end"	: 82,
 		"image"	: "IMG_7933.jpg",
 		"tag"	: "Come with me to a quieter part",
 		"description"	: null,
@@ -59,7 +59,7 @@ var data = [
 //SETTING
 	{
 		"start" : 83,
-		"end"	: 89,
+		"end"	: 92,
 		"image"	: "plaza_de_san_francisco.jpg",
 		"tag"	: "Plaza de San Franciso",
 		"description"	: null,
@@ -67,7 +67,7 @@ var data = [
 	},
 	{
 		"start" : 93,
-		"end"	: 96,
+		"end"	: 103,
 		"image"	: "terminal.jpg",
 		"tag"	: "Ferry Terminal",
 		"description"	: null,
@@ -75,7 +75,7 @@ var data = [
 	}, 
 	{
 		"start" : 104,
-		"end"	: 107,
+		"end"	: 113,
 		"image"	: "stFrancisAssisi.jpg",
 		"tag"	: "16th Century Mission",
 		"description"	: null,
@@ -83,7 +83,7 @@ var data = [
 	}, 
 	{
 		"start" : 114,
-		"end"	: 117,
+		"end"	: 119,
 		"image"	: "sanFelipeNeriConcertHall.jpg",
 		"tag"	: "Restored as a concert venue",
 		"description"	: null,
@@ -91,7 +91,7 @@ var data = [
 	},
 	{
 		"start" : 120,
-		"end"	: 123,
+		"end"	: 149,
 		"image"	: "cameratuRomeu.jpg",
 		"tag"	: "Cameratu Romeu",
 		"description"	: null,
@@ -100,7 +100,7 @@ var data = [
 //INTERVIEW
 	{
 		"start" : 150,
-		"end"	: 153,
+		"end"	: 154,
 		"image"	: "zanaidu.jpg",
 		"tag"	: "Zanidu Romeu",
 		"description"	: null,
@@ -116,15 +116,15 @@ var data = [
 	},
 	{
 		"start" : 159,
-		"end"	: 162,
+		"end"	: 161,
 		"image"	: null,
 		"tag"	: "1993",
 		"description"	: null,
 		"link"			: null
 	}, 
 	{
-		"start" : 161,
-		"end"	: 162,
+		"start" : 162,
+		"end"	: 164,
 		"image"	: "p02jy288.jpg",
 		"tag"	: "Founded the orchestra",
 		"description"	: null,
@@ -132,7 +132,7 @@ var data = [
 	},
 	{
 		"start" : 165,
-		"end"	: 168,
+		"end"	: 181,
 		"image"	: "p02jy243.jpg",
 		"tag"	: "female young musicians in Cuba",
 		"description"	: null,
@@ -140,7 +140,7 @@ var data = [
 	},
 	{
 		"start" : 182,
-		"end"	: 185,
+		"end"	: 186,
 		"image"	: null,
 		"tag"	: "Quite rare in other countries",
 		"description"	: null,
@@ -156,23 +156,23 @@ var data = [
 	},
 	{
 		"start" : 189,
-		"end"	: 190,
+		"end"	: 191,
 		"image"	: "cuban-musician.jpg",
 		"tag"	: "Latin America",
 		"description"	: null,
 		"link"			: null
 	},
 	{
-		"start" : 191,
-		"end"	: 192,
+		"start" : 192,
+		"end"	: 197,
 		"image"	: null,
 		"tag"	: "Universal",
 		"description"	: null,
 		"link"			: null
 	},
 	{
-		"start" : 197,
-		"end"	: 200,
+		"start" : 198,
+		"end"	: 204,
 		"image"	: "instituoSuperiorDeArtes.jpg",
 		"tag"	: "Education",
 		"description"	: null,
