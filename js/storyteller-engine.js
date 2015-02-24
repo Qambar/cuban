@@ -1,5 +1,16 @@
 document.addEventListener( "DOMContentLoaded", function() {
     var popcorn = Popcorn( "#storyteller" );
+
+    $(window).focus(function() {
+        popcorn.play();
+    });
+    $(window).blur(function() {
+        popcorn.pause();
+    });
+
+    // $('body').click(function() {
+    //     popcorn.play();
+    // });
     
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
@@ -34,6 +45,9 @@ document.addEventListener( "DOMContentLoaded", function() {
                             $( ".button" ).html(linkElements[0]);
                         }
                         $(".button").fadeIn();
+                        $('.button').click(function() {
+                            popcorn.pause();
+                        });
                     }
 				},
 				onEnd: function( options ) {
