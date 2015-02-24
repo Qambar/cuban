@@ -1,7 +1,6 @@
 document.addEventListener( "DOMContentLoaded", function() {
     var popcorn = Popcorn( "#storyteller" );
-
-
+    
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
         	
@@ -20,7 +19,7 @@ document.addEventListener( "DOMContentLoaded", function() {
                         $(".tag").fadeIn();
                     }
                     //Change the description
-                    if (currentFrame.tag) {
+                    if (currentFrame.description) {
                         $( ".description" ).html(currentFrame.description);
                         $(".description").fadeIn();
                     }
