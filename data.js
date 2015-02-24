@@ -165,7 +165,7 @@ var data = [
 	{
 		"start" : 192,
 		"end"	: 197,
-		"image"	: null,
+		"image"	: "unversal.jpg",
 		"tag"	: "Universal",
 		"description"	: null,
 		"link"			: null
@@ -181,7 +181,7 @@ var data = [
 	{
 		"start" : 205,
 		"end"	: 208,
-		"image"	: null,
+		"image"	: "cubanista.jpg",
 		"tag"	: "Surprise",
 		"description"	: null,
 		"link"			: null
