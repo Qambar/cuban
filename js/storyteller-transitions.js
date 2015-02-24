@@ -2,7 +2,8 @@ var transitions = new function() {
 	this.currentFrame = null;
 
     this.startImage = function() {
-    	$('body').css('background-image', 'url(img/' + this.currentFrame.image + ')');
+    	$('.bg').attr('src', 'img/' + this.currentFrame.image);
+        $('.bg').fadeIn();
     }
     this.startTag = function () {
         $(".tag").html(this.currentFrame.tag);
@@ -18,7 +19,8 @@ var transitions = new function() {
     }
 
     this.endImage = function () {
-    	$('body').css('background-image', 'url("")');
+        $('.bg').fadeOut();
+    	$('.bg').attr('src', '');
     }
     this.endTag = function() {
     	$(".tag-box").fadeOut();
