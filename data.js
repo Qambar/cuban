@@ -3,7 +3,7 @@ var data = [
 	{
 		"start" 		: 39,
 		"end"			: 41,
-		"image"			: "angelVasquesMillares.jpg",
+		"image"			: "havanna-vieja2.jpg",
 		"tag"			: "Old Havana",
 		"description"	: "Lorem ipsum dolar",
 		"link"			: "BBC|http://www.bbc.co.uk*"
@@ -112,6 +112,79 @@ var data = [
 		"image"	: "null",
 		"tag"	: "Piazolla",
 		"description"	: "null",
+		"link"			: "http://en.wikipedia.org/wiki/Astor_Piazzolla"
+	}
+	{
+		"start" : 159,
+		"end"	: 160,
+		"image"	: "null",
+		"tag"	: "1993",
+		"description"	: "null",
 		"link"			: "null"
-	} 		
+	} 
+	{
+		"start" : 161,
+		"end"	: 162,
+		"image"	: "null",
+		"tag"	: "Founded the orchestra",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 165,
+		"end"	: 168,
+		"image"	: "null",
+		"tag"	: "female young musicians in Cuba",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 182,
+		"end"	: 185,
+		"image"	: "null",
+		"tag"	: "Quite rare in other countries",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 187,
+		"end"	: 188,
+		"image"	: "null",
+		"tag"	: "Our own cuban music",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 189,
+		"end"	: 190,
+		"image"	: "null",
+		"tag"	: "Latin America",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 191,
+		"end"	: 192,
+		"image"	: "null",
+		"tag"	: "Universal",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 197,
+		"end"	: 200,
+		"image"	: "null",
+		"tag"	: "Education",
+		"description"	: "null",
+		"link"			: "null"
+	}
+	{
+		"start" : 205,
+		"end"	: 208,
+		"image"	: "null",
+		"tag"	: "Surprise",
+		"description"	: "null",
+		"link"			: "null"
+	}
+
 ]
