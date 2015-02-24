@@ -23,7 +23,7 @@ var data = [
 		"tag"	: "Friday Night",
 		"description"	: "Lorem ipsum dolar",
 		"link"			: "null"
-	} 
+	},
 	{
 		"start" : 62,
 		"end"	: 65,
@@ -31,7 +31,7 @@ var data = [
 		"tag"	: "Live Cuban Music",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 69,
 		"end"	: 72,
@@ -39,7 +39,7 @@ var data = [
 		"tag"	: "Buena Vista Social Club",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 73,
 		"end"	: 76,
@@ -47,7 +47,7 @@ var data = [
 		"tag"	: "Another side of Cuban music",
 		"description"	: "null",
 		"link"			: "null"
-	} 
+	}, 
 	{
 		"start" : 77,
 		"end"	: 80,
@@ -55,7 +55,7 @@ var data = [
 		"tag"	: "Come with me to a quieter part",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 //SETTING
 	{
 		"start" : 83,
@@ -64,7 +64,7 @@ var data = [
 		"tag"	: "Plaza de San Franciso",
 		"description"	: "null",
 		"link"			: "null"
-	} 
+	},
 	{
 		"start" : 93,
 		"end"	: 96,
@@ -72,7 +72,7 @@ var data = [
 		"tag"	: "Ferry Terminal",
 		"description"	: "null",
 		"link"			: "null"
-	}  
+	}, 
 	{
 		"start" : 104,
 		"end"	: 107,
@@ -80,7 +80,7 @@ var data = [
 		"tag"	: "16th Century Mission",
 		"description"	: "null",
 		"link"			: "null"
-	} 
+	}, 
 	{
 		"start" : 114,
 		"end"	: 117,
@@ -88,7 +88,7 @@ var data = [
 		"tag"	: "Restored as a concert venue",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 120,
 		"end"	: 123,
@@ -96,7 +96,7 @@ var data = [
 		"tag"	: "Cameratu Romeu",
 		"description"	: "null",
 		"link"			: "null"
-	} 
+	}, 
 //INTERVIEW
 	{
 		"start" : 150,
@@ -105,7 +105,7 @@ var data = [
 		"tag"	: "Zanidu Romeu",
 		"description"	: "null",
 		"link"			: "null"
-	}  
+	},  
 	{
 		"start" : 155,
 		"end"	: 158,
@@ -113,7 +113,7 @@ var data = [
 		"tag"	: "Piazolla",
 		"description"	: "null",
 		"link"			: "http://en.wikipedia.org/wiki/Astor_Piazzolla"
-	}
+	},
 	{
 		"start" : 159,
 		"end"	: 160,
@@ -121,7 +121,7 @@ var data = [
 		"tag"	: "1993",
 		"description"	: "null",
 		"link"			: "null"
-	} 
+	}, 
 	{
 		"start" : 161,
 		"end"	: 162,
@@ -129,7 +129,7 @@ var data = [
 		"tag"	: "Founded the orchestra",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 165,
 		"end"	: 168,
@@ -137,7 +137,7 @@ var data = [
 		"tag"	: "female young musicians in Cuba",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 182,
 		"end"	: 185,
@@ -145,7 +145,7 @@ var data = [
 		"tag"	: "Quite rare in other countries",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 187,
 		"end"	: 188,
@@ -153,7 +153,7 @@ var data = [
 		"tag"	: "Our own cuban music",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 189,
 		"end"	: 190,
@@ -161,7 +161,7 @@ var data = [
 		"tag"	: "Latin America",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 191,
 		"end"	: 192,
@@ -169,7 +169,7 @@ var data = [
 		"tag"	: "Universal",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 197,
 		"end"	: 200,
@@ -177,7 +177,7 @@ var data = [
 		"tag"	: "Education",
 		"description"	: "null",
 		"link"			: "null"
-	}
+	},
 	{
 		"start" : 205,
 		"end"	: 208,
