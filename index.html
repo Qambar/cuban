@@ -1,49 +1,35 @@
 <html>
  <head>
    <title>Hack Day - Team "Story"</title>
-   <script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+   <script src="js/popcorn-complete.js"></script>
+   <script src="js/jquery.min.js" type="text/javascript"></script>
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <script>
      document.addEventListener( "DOMContentLoaded", function() {
         var popcorn = Popcorn( "#storyteller" );
-        
-        var data 	= [
-        	{
-        		'start' : 1,
-        		'end'	: 3,
-        		'image'	: 'images/p029mxjc.jpg',
-        		'tag'	: 'Amazing'
-        	},
-        	{
-        		'start' : 4,
-        		'end'	: 9,
-        		'image'	: 'images/p01mw9hk.jpg',
-        		'tag'	: 'Amazing'
-        	}     		
-        ]; 
 
-        $.each(data, function(index) {
-        	
-        	currentFrame = $(this)[0];
-        	// console.log(currentFrame);
-        	popcorn.code({
-				start: currentFrame.start,
-				end: currentFrame.end,
-				onStart: function( options ) {
-					console.log(currentFrame);
-					//Change background image
-					$('body').css('background-image', 'url(' + currentFrame.image + ')');
-					//Change the Tag
-					document.getElementById( "tag" ).innerHTML = currentFrame.tag;
-				},
-				onEnd: function( options ) {
-
-					// document.getElementById( "tag" ).innerHTML = "No";
-				}
-			});
-
-        }); 
+        $.getJSON( "./data.json", function( data ) {
+            console.log(data);
+// alert("Yes");
+            $.each(data, function(index, currentFrame) {
+            	
+                popcorn.code({
+    				start   : currentFrame.start,
+    				end     : currentFrame.end,
+    				onStart: function( options ) {
+                        // alert("starting : " + currentFrame.image);
+    					//Change background image
+    					$('body').css('background-image', 'url(img/' + currentFrame.image + ')');
+    					//Change the Tag
+    					document.getElementById( "tag" ).innerHTML = currentFrame.tag;
+    				},
+    				onEnd: function( options ) {
+                        // alert("ending");
+    					// document.getElementById( "tag" ).innerHTML = "No";
+    				}
+    			}); //end of popcorn.code
+            }); //end of $.each
+        }); // end of getJSON
 
      }, false );
    </script>
