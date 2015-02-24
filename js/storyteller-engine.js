@@ -8,9 +8,6 @@ document.addEventListener( "DOMContentLoaded", function() {
         popcorn.pause();
     });
 
-    // $('body').click(function() {
-    //     popcorn.play();
-    // });
     
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
@@ -27,7 +24,7 @@ document.addEventListener( "DOMContentLoaded", function() {
 					//Change the Tag
 					if (currentFrame.tag) {
                         $( ".tag" ).html(currentFrame.tag);
-                        $(".tag").fadeIn();
+                        $(".tag-box").fadeIn();
                     }
                     //Change the description
                     if (currentFrame.description) {
@@ -52,7 +49,7 @@ document.addEventListener( "DOMContentLoaded", function() {
 				},
 				onEnd: function( options ) {
                     $('body').css('background-image', 'url("")');
-                    $(".tag").fadeOut();
+                    $(".tag-box").fadeOut();
                     $(".description").fadeOut();
                     $(".button").fadeOut();
 				}
