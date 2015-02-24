@@ -5,7 +5,8 @@
 		"image"			: "angelVasquesMillares.jpg",
 		"tag"			: "Amazing",
 		"description"	: "Lorem ipsum dolar",
-		"link"			: "http://www.bbc.co.uk"
+		"link"			: "BBC|http://www.bbc.co.uk"
+
 	},
 	{
 		"start" : 4,
