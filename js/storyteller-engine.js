@@ -49,7 +49,7 @@ document.addEventListener( "DOMContentLoaded", function() {
                     }
 				},
 				onEnd: function( options ) {
-                    $('body').css('background-image', 'url("")');
+                    $('.bg').attr('src', '');
                     $(".tag-box").fadeOut();
                     $(".description").fadeOut();
                     $(".button").fadeOut();
