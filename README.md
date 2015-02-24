@@ -1,5 +1,7 @@
 # cuban
 
+Before the revolution Havana was part of the international classical concert circuit. More recently cubans popular music has been heard across the world but is there still a thriving classical music scene? Andrew Mcgreggor visits Havana to find out, meeting performers, students, academics and broadcasters, revealing some of the more unexpected sounds of music in Cuba today. 
+
 #Transcript
 
 This is Havana Vieja, old Havana, I’m on Obispo, central havannas busiest street, between cobbled squares, colonial mansions, ornate restorations springing up all around here, standing proudly between the many crumbling apartment blocks. It’s a cuban national holiday, it’s friday night, the locals are out in force mingling with the visitors, they were all flocking to Obispo for the bars, for the nightlife and for sounds like this, for the live cuban music here, the salsas song cuban jazz and covers of the internationally famous bueno vista social club but i’m here to find another side to cuban music a different set of sounds, another musical history so come with me to a quitter part, just a few streets from here. 
