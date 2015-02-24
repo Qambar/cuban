@@ -35,9 +35,21 @@ body {
   }
 }
 
+.inner {
+  padding: 5px;
+}
+.tag-box {
+  height: 50px;
+  line-height: 50px;
+  margin: 50px;
+  background-color: #000000;
+  border: none;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
 
+}
 
-
+  
 /* Presentational style rules only
  * Not required
  */

@@ -5,8 +5,8 @@ var data = [
 		"end"			: 41,
 		"image"			: "havanna-vieja2.jpg",
 		"tag"			: "Old Havana",
-		"description"	: "Lorem ipsum dolar",
-		"link"			: "BBC|http://www.bbc.co.uk*"
+		"description"	: "null",
+		"link"			: "null"
 
 	},
 	{

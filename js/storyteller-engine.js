@@ -1,7 +1,14 @@
 document.addEventListener( "DOMContentLoaded", function() {
     var popcorn = Popcorn( "#storyteller" );
 
+    $(window).focus(function() {
+        popcorn.play();
+    });
+    $(window).blur(function() {
+        popcorn.pause();
+    });
 
+    
     // $.getJSON( "./data.json", function( data ) {
         $.each(data, function(index, currentFrame) {
         	
@@ -17,10 +24,10 @@ document.addEventListener( "DOMContentLoaded", function() {
 					//Change the Tag
 					if (currentFrame.tag) {
                         $( ".tag" ).html(currentFrame.tag);
-                        $(".tag").fadeIn();
+                        $(".tag-box").fadeIn();
                     }
                     //Change the description
-                    if (currentFrame.tag) {
+                    if (currentFrame.description) {
                         $( ".description" ).html(currentFrame.description);
                         $(".description").fadeIn();
                     }
@@ -35,11 +42,14 @@ document.addEventListener( "DOMContentLoaded", function() {
                             $( ".button" ).html(linkElements[0]);
                         }
                         $(".button").fadeIn();
+                        $('.button').click(function() {
+                            popcorn.pause();
+                        });
                     }
 				},
 				onEnd: function( options ) {
                     $('body').css('background-image', 'url("")');
-                    $(".tag").fadeOut();
+                    $(".tag-box").fadeOut();
                     $(".description").fadeOut();
                     $(".button").fadeOut();
 				}
