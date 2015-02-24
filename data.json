@@ -1,0 +1,20 @@
+[
+	{
+		"start" : 1,
+		"end"	: 3,
+		"image"	: "angelVasquesMillares.jpg",
+		"tag"	: "Amazing"
+	},
+	{
+		"start" : 4,
+		"end"	: 9,
+		"image"	: "balletSchool.jpg",
+		"tag"	: "Wohoo!"
+	},
+	{
+		"start" : 10,
+		"end"	: 15,
+		"image"	: null,
+		"tag"	: "Paul Blake's request"
+	}        		
+]
